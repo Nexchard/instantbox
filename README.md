@@ -6,7 +6,7 @@
 
 几秒钟内获得一个干净、即用的 Linux 环境。
 
-[![Docker](https://badgen.net/badge/icon/instantbox?icon=docker&label)](https://hub.docker.com/r/instantbox/instantbox)
+[![Docker](https://badgen.net/badge/icon/instantbox?icon=docker&label)](https://hub.docker.com/r/nexsre/instantbox)
 ![Python 3.11](https://badgen.net/badge/python/3.11/3776ab)
 ![Code Style Pep8](https://badgen.net/badge/code%20style/pep8/ffd343)
 
@@ -88,7 +88,7 @@ docker-compose up -d
 ## 自动 Docker 构建
 
 本项目使用 GitHub Actions 实现 Docker 镜像的自动构建和发布。
-当向 `master` 分支推送提交或创建新标签时，
+当向 `main` 分支推送提交或创建新标签时，
 工作流将自动构建并推送 Docker 镜像到 Docker Hub。
 
 要使用此功能，您需要在 GitHub 仓库中设置以下 secrets：
@@ -97,13 +97,6 @@ docker-compose up -d
 
 工作流支持 `linux/amd64` 和 `linux/arm64` 平台的多架构构建。
 
-## 贡献
-
-1. Fork 本项目（原项目为 [instantbox/instantbox](https://github.com/instantbox/instantbox)）
-2. 创建您的特性分支 (`git checkout -b my-new-feature`)
-3. 提交您的更改 (`git commit -am 'Add some feature'`)
-4. 推送到分支 (`git push origin my-new-feature`)
-5. 创建新的 Pull Request
 
 ## 许可证
 
